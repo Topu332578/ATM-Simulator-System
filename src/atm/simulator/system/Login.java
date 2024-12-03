@@ -22,11 +22,11 @@ public class Login extends JFrame implements ActionListener {
         add(image);
 
 
-        ImageIcon ii1 = new ImageIcon(ClassLoader.getSystemResource("icon/card.png"));
+        ImageIcon ii1 = new ImageIcon(ClassLoader.getSystemResource("icon/cardq.png"));
         Image ii2 = ii1.getImage().getScaledInstance(100,100,Image.SCALE_DEFAULT);
         ImageIcon ii3 = new ImageIcon(ii2);
         JLabel iimage = new JLabel(ii3);
-        iimage.setBounds(630,350,100,100);
+        iimage.setBounds(630,350,150,100);
         add(iimage);
 
 
@@ -96,7 +96,7 @@ public class Login extends JFrame implements ActionListener {
 
 
 
-        ImageIcon iii1 = new ImageIcon(ClassLoader.getSystemResource("icon/backbg.png"));
+        ImageIcon iii1 = new ImageIcon(ClassLoader.getSystemResource("icon/okbg.png"));
         Image iii2 = iii1.getImage().getScaledInstance(850,480,Image.SCALE_DEFAULT);
         ImageIcon iii3 = new ImageIcon(iii2);
         JLabel iiimage = new JLabel(iii3);
