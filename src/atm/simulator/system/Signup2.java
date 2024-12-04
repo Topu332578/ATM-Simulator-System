@@ -130,4 +130,44 @@ String income [] = {"Null","<1,50,000","<2,50,000", "5,00,000", "Uptp 10,00,000"
         r2.setBackground(new Color(252,208,76));
         r2.setBounds(460,490,100,30);
         add(r2);
+ JLabel l11 = new JLabel("Existing Account : ");
+        l11.setFont(new Font("Raleway", Font.BOLD,18));
+        l11.setBounds(100,540,180,30);
+        add(l11);
 
+        e1 = new JRadioButton("Yes");
+        e1.setFont(new Font("Raleway", Font.BOLD,14));
+        e1.setBackground(new Color(252,208,76));
+        e1.setBounds(350,540,100,30);
+        add(e1);
+        e2 = new JRadioButton("No");
+        e2.setFont(new Font("Raleway", Font.BOLD,14));
+        e2.setBackground(new Color(252,208,76));
+        e2.setBounds(460,540,100,30);
+        add(e2);
+
+        JLabel l12 = new JLabel("Form No : ");
+        l12.setFont(new Font("Raleway", Font.BOLD,14));
+        l12.setBounds(700,10,100,30);
+        add(l12);
+
+        JLabel l13 = new JLabel(formno);
+        l13.setFont(new Font("Raleway", Font.BOLD,14));
+        l13.setBounds(760,10,60,30);
+        add(l13);
+
+        next = new JButton("Next");
+        next.setFont(new Font("Raleway",Font.BOLD,14));
+        next.setBackground(Color.WHITE);
+        next.setForeground(Color.BLACK);
+        next.setBounds(570,640,100,30);
+        next.addActionListener(this);
+        add(next);
+
+
+        setLayout(null);
+        setSize(850,750);
+        setLocation(450,80);
+        getContentPane().setBackground(new Color(252, 208, 76));
+        setVisible(true);
+    }
