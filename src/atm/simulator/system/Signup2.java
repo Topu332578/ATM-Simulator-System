@@ -194,4 +194,27 @@ String income [] = {"Null","<1,50,000","<2,50,000", "5,00,000", "Uptp 10,00,000"
         } else if (r2.isSelected()) {
             eAccount ="No";
         }
+ try{
+            if (textPan.getText().equals("") || textAadhar.getText().equals("")){
+                JOptionPane.showMessageDialog(null,"Fill all the fields");
+            }else {
+                Connn c = new Connn();
+                String q = "insert into Signuptwo values('"+formno+"', '"+rel+"', '"+cate+"','"+inc+"','"+edu+"','"+occ+"','"+pan+"','"+addhar+"','"+scitizen+"','"+eAccount+"')";
+                c.statement.executeUpdate(q);
+                new Signup3(formno);
+                setVisible(false);
+            }
+
+
+        }catch (Exception E){
+            E.printStackTrace();
+        }
+
+
+    }
+
+    public static void main(String[] args) {
+        new Signup2("");
+    }
+}
 
