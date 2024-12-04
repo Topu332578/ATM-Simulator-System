@@ -62,3 +62,72 @@ public class Signup2 extends JFrame implements ActionListener {
         l5.setFont(new Font("Raleway", Font.BOLD,18));
         l5.setBounds(100,220,100,30);
         add(l5);
+String income [] = {"Null","<1,50,000","<2,50,000", "5,00,000", "Uptp 10,00,000","Above 10,00,000"};
+        comboBox3 = new JComboBox(income);
+        comboBox3.setBackground(new Color(252,208,76));
+        comboBox3.setFont(new Font("Raleway",Font.BOLD,14));
+        comboBox3.setBounds(350,220,320,30);
+        add(comboBox3);
+
+        JLabel l6 = new JLabel("Educational : ");
+        l6.setFont(new Font("Raleway", Font.BOLD,18));
+        l6.setBounds(100,270,150,30);
+        add(l6);
+
+        String educational [] = {"Non-Graduate","Graduate","Post-Graduate", "Doctrate", "Others"};
+        comboBox4 = new JComboBox(educational);
+        comboBox4.setBackground(new Color(252,208,76));
+        comboBox4.setFont(new Font("Raleway",Font.BOLD,14));
+        comboBox4.setBounds(350,270,320,30);
+        add(comboBox4);
+
+
+        JLabel l7 = new JLabel("Occupation : ");
+        l7.setFont(new Font("Raleway", Font.BOLD,18));
+        l7.setBounds(100,340,150,30);
+        add(l7);
+
+        String Occupation [] = {"Salaried","Self-Employed","Business", "Student", "Retired", "Other"};
+        comboBox5 = new JComboBox(Occupation);
+        comboBox5.setBackground(new Color(252,208,76));
+        comboBox5.setFont(new Font("Raleway",Font.BOLD,14));
+        comboBox5.setBounds(350,340,320,30);
+        add(comboBox5);
+
+        JLabel l8 = new JLabel("PAN Number : ");
+        l8.setFont(new Font("Raleway", Font.BOLD,18));
+        l8.setBounds(100,390,150,30);
+        add(l8);
+
+        textPan = new JTextField();
+        textPan.setFont(new Font("Raleway", Font.BOLD,18));
+        textPan.setBounds(350,390,320,30);
+        add(textPan);
+
+        JLabel l9 = new JLabel("Aadhar Number : ");
+        l9.setFont(new Font("Raleway", Font.BOLD,18));
+        l9.setBounds(100,440,180,30);
+        add(l9);
+
+        textAadhar = new JTextField();
+        textAadhar.setFont(new Font("Raleway", Font.BOLD,18));
+        textAadhar.setBounds(350,440,320,30);
+        add(textAadhar);
+
+
+        JLabel l10 = new JLabel("Senior Citizen : ");
+        l10.setFont(new Font("Raleway", Font.BOLD,18));
+        l10.setBounds(100,490,180,30);
+        add(l10);
+
+        r1 = new JRadioButton("Yes");
+        r1.setFont(new Font("Raleway", Font.BOLD,14));
+        r1.setBackground(new Color(252,208,76));
+        r1.setBounds(350,490,100,30);
+        add(r1);
+        r2 = new JRadioButton("No");
+        r2.setFont(new Font("Raleway", Font.BOLD,14));
+        r2.setBackground(new Color(252,208,76));
+        r2.setBounds(460,490,100,30);
+        add(r2);
+
