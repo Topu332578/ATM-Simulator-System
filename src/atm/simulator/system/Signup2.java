@@ -171,3 +171,27 @@ String income [] = {"Null","<1,50,000","<2,50,000", "5,00,000", "Uptp 10,00,000"
         getContentPane().setBackground(new Color(252, 208, 76));
         setVisible(true);
     }
+ @Override
+    public void actionPerformed(ActionEvent e) {
+        String rel = (String) comboBox.getSelectedItem();
+        String cate = (String) comboBox2.getSelectedItem();
+        String inc = (String) comboBox3.getSelectedItem();
+        String edu = (String) comboBox4.getSelectedItem();
+        String occ = (String) comboBox5.getSelectedItem();
+
+        String pan = textPan.getText();
+        String addhar = textAadhar.getText();
+
+        String scitizen = " ";
+        if ((r1.isSelected())){
+            scitizen = "Yes";
+        } else if (r2.isSelected()) {
+            scitizen ="No";
+        }
+        String eAccount = " ";
+        if ((r1.isSelected())){
+            eAccount = "Yes";
+        } else if (r2.isSelected()) {
+            eAccount ="No";
+        }
+
