@@ -39,3 +39,26 @@ public class Signup2 extends JFrame implements ActionListener {
         l3.setFont(new Font("Raleway", Font.BOLD,18));
         l3.setBounds(100,120,100,30);
         add(l3);
+ String religion[] = {"Hindu","Muslim","Sikh", "Christian", "Other"};
+        comboBox = new JComboBox(religion);
+        comboBox.setBackground(new Color(252,208,76));
+        comboBox.setFont(new Font("Raleway",Font.BOLD,14));
+        comboBox.setBounds(350,120,320,30);
+        add(comboBox);
+
+        JLabel l4 = new JLabel("Category : ");
+        l4.setFont(new Font("Raleway", Font.BOLD,18));
+        l4.setBounds(100,170,100,30);
+        add(l4);
+
+        String Category [] = {"General","OBC","SC", "ST", "Other"};
+        comboBox2 = new JComboBox(Category);
+        comboBox2.setBackground(new Color(252,208,76));
+        comboBox2.setFont(new Font("Raleway",Font.BOLD,14));
+        comboBox2.setBounds(350,170,320,30);
+        add(comboBox2);
+
+        JLabel l5 = new JLabel("Income : ");
+        l5.setFont(new Font("Raleway", Font.BOLD,18));
+        l5.setBounds(100,220,100,30);
+        add(l5);
