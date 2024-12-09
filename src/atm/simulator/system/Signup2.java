@@ -1,5 +1,12 @@
-
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
 package bank.management.system;
+
+
+
 
 import javax.swing.*;
 import java.awt.*;
@@ -201,7 +208,7 @@ String income [] = {"Null","<1,50,000","<2,50,000", "5,00,000", "Uptp 10,00,000"
                 Connn c = new Connn();
                 String q = "insert into Signuptwo values('"+formno+"', '"+rel+"', '"+cate+"','"+inc+"','"+edu+"','"+occ+"','"+pan+"','"+addhar+"','"+scitizen+"','"+eAccount+"')";
                 c.statement.executeUpdate(q);
-                new Signup3(formno);
+                new Signup2(formno);
                 setVisible(false);
             }
 
@@ -217,4 +224,3 @@ String income [] = {"Null","<1,50,000","<2,50,000", "5,00,000", "Uptp 10,00,000"
         new Signup2("");
     }
 }
-
