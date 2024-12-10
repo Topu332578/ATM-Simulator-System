@@ -7,6 +7,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.sql.ResultSet;
 import java.util.Date;
+import java.util.Random;
 
 public class FastCash extends JFrame implements ActionListener {
 
