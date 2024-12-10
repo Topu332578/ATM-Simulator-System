@@ -1,9 +1,11 @@
 package atm.simulator.system;
+import com.toedter.calendar.JDateChooser;
 
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.util.Random;
 
 public class Pin extends JFrame implements ActionListener {
     JButton b1,b2;
