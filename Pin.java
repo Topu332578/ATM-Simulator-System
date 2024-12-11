@@ -97,4 +97,7 @@ public class Pin extends JFrame implements ActionListener {
                 String q1 = "update bank set pin = '"+pin1+"' where pin = '"+pin+"'";
                 String q2 = "update login set pin = '"+pin1+"' where pin = '"+pin+"'";
                 String q3 = "update signupthree set pin = '"+pin1+"' where pin = '"+pin+"'";
+                c.statement.executeUpdate(q1);
+                c.statement.executeUpdate(q2);
+                c.statement.executeUpdate(q3);
 
