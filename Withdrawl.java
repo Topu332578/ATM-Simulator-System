@@ -38,4 +38,13 @@ Withdrawl(String pin) {
     b1.setForeground(Color.WHITE);
     b1.addActionListener(this);
     l3.add(b1);
+
+    b2 = new JButton("BACK");
+    b2.setBounds(700,406,150,35);
+    b2.setBackground(new Color(65,125,128));
+    b2.setForeground(Color.WHITE);
+    b2.addActionListener(this);
+    l3.add(b2);
+
+
 }
