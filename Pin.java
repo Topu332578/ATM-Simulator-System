@@ -37,3 +37,9 @@ public class Pin extends JFrame implements ActionListener {
         p1.setBounds(600,220,180,25);
         p1.setFont(new Font("Raleway", Font.BOLD,22));
         l3.add(p1);
+
+        JLabel label3 = new JLabel("Re-Enter New PIN: ");
+        label3.setForeground(Color.WHITE);
+        label3.setFont(new Font("System", Font.BOLD, 16));
+        label3.setBounds(430,250,400,35);
+        l3.add(label3);
