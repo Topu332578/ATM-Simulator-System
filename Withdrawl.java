@@ -64,6 +64,17 @@ Withdrawl(String pin) {
                     Connn c = new Connn();
                     ResultSet resultSet = c.statement.executeQuery("select * from bank where pin = '" + pin + "'");
                     int balance = 0;
+                    while (resultSet.next()) {
+                        if (resultSet.getString("type").equals("Deposit")) {
+                            balance += Integer.parseInt(resultSet.getString("amount"));
+                        } else {
+                            balance -= Integer.parseInt(resultSet.getString("amount"));
+                        }
+                    }
+                    if (balance < Integer.parseInt(amount)) {
+                        JOptionPane.showMessageDialog(null, "Insuffient Balance");
+                        return;
+                    }
 
 
 
@@ -71,7 +82,8 @@ Withdrawl(String pin) {
 
 
 
-    }
+
+                }
 
 
 
