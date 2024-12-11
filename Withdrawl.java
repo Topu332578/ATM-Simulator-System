@@ -31,4 +31,11 @@ Withdrawl(String pin) {
     textField.setBounds(460,260,320,25);
     textField.setFont(new Font("Raleway", Font.BOLD,22));
     l3.add(textField);
+
+    b1 = new JButton("WITHDRAW");
+    b1.setBounds(700,362,150,35);
+    b1.setBackground(new Color(65,125,128));
+    b1.setForeground(Color.WHITE);
+    b1.addActionListener(this);
+    l3.add(b1);
 }
