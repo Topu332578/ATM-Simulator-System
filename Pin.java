@@ -78,3 +78,7 @@ public class Pin extends JFrame implements ActionListener {
 
             String pin1 = p1.getText();
             String pin2 = p2.getText();
+
+            if (!pin1.equals(pin2)){
+                JOptionPane.showMessageDialog(null,"Entered PIN does not match");
+                return;
