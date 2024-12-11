@@ -18,4 +18,10 @@ Withdrawl(String pin) {
     label1.setFont(new Font("System", Font.BOLD, 16));
     label1.setBounds(460,180,700,35);
     l3.add(label1);
+
+    JLabel label2 = new JLabel("PLEASE ENTER YOUR AMOUNT");
+    label2.setForeground(Color.WHITE);
+    label2.setFont(new Font("System", Font.BOLD, 16));
+    label2.setBounds(460,220,400,35);
+    l3.add(label2);
 }
