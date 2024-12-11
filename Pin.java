@@ -70,3 +70,11 @@ public class Pin extends JFrame implements ActionListener {
         setLocation(0,0);
         setVisible(true);
     }
+
+    @Override
+    public void actionPerformed(ActionEvent e) {
+
+        try{
+
+            String pin1 = p1.getText();
+            String pin2 = p2.getText();
