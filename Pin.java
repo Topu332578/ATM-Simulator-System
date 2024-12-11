@@ -110,3 +110,16 @@ public class Pin extends JFrame implements ActionListener {
                 setVisible(false);
             }
 
+        }catch (Exception E){
+            E.printStackTrace();
+        }
+
+
+
+    }
+
+    public static void main(String[] args) {
+        new Pin("");
+    }
+}
+
