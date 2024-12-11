@@ -1,5 +1,4 @@
 package bank.management.system;
-
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -51,7 +50,7 @@ public class Deposit extends JFrame implements ActionListener {
 
 
 
-        setLayout(null);
+    setLayout(null);
         setSize(1550,1080);
         setLocation(0,0);
         setVisible(true);
