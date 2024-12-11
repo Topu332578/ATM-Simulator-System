@@ -24,4 +24,11 @@ Withdrawl(String pin) {
     label2.setFont(new Font("System", Font.BOLD, 16));
     label2.setBounds(460,220,400,35);
     l3.add(label2);
+
+    textField = new TextField();
+    textField.setBackground(new Color(65,125,128));
+    textField.setForeground(Color.WHITE);
+    textField.setBounds(460,260,320,25);
+    textField.setFont(new Font("Raleway", Font.BOLD,22));
+    l3.add(textField);
 }
