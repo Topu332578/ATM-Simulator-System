@@ -18,3 +18,9 @@ public class Pin extends JFrame implements ActionListener {
         JLabel l3 = new JLabel(i3);
         l3.setBounds(0,0,1550,830);
         add(l3);
+
+        JLabel label1 = new JLabel("CHANGE YOUR PIN");
+        label1.setForeground(Color.WHITE);
+        label1.setFont(new Font("System", Font.BOLD, 16));
+        label1.setBounds(430,180,400,35);
+        l3.add(label1);
