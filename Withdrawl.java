@@ -76,6 +76,22 @@ Withdrawl(String pin) {
                         return;
                     }
 
+                    c.statement.executeUpdate("insert into bank values('" + pin + "', '" + date + "', 'Withdrawl', '" + amount + "' )");
+                    JOptionPane.showMessageDialog(null, "Rs. " + amount + " Debited Successfully");
+                    setVisible(false);
+                    new main_Class(pin);
+
+                }
+            } catch (Exception E) {
+
+            }
+        } else if (e.getSource()==b2) {
+            setVisible(false);
+            new main_Class(pin);
+        }
+    }
+
+
 
 
 
