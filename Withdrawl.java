@@ -51,6 +51,22 @@ Withdrawl(String pin) {
     setLocation(0,0);
     setVisible(true);
 
+    @Override
+    public void actionPerformed(ActionEvent e) {
+
+        if(e.getSource()==b1) {
+            try {
+                String amount = textField.getText();
+                Date date = new Date();
+
+
+
+
+
+
+
+    }
+
 
 
 
