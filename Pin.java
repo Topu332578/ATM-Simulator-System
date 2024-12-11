@@ -48,3 +48,5 @@ public class Pin extends JFrame implements ActionListener {
         p2.setBackground(new Color(65,125,128));
         p2.setForeground(Color.WHITE);
         p2.setBounds(600,255,180,25);
+        p2.setFont(new Font("Raleway", Font.BOLD,22));
+        l3.add(p2);
