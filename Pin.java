@@ -43,3 +43,8 @@ public class Pin extends JFrame implements ActionListener {
         label3.setFont(new Font("System", Font.BOLD, 16));
         label3.setBounds(430,250,400,35);
         l3.add(label3);
+
+        p2 = new JPasswordField();
+        p2.setBackground(new Color(65,125,128));
+        p2.setForeground(Color.WHITE);
+        p2.setBounds(600,255,180,25);
