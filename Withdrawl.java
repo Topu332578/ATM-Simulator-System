@@ -58,6 +58,12 @@ Withdrawl(String pin) {
             try {
                 String amount = textField.getText();
                 Date date = new Date();
+                if (textField.getText().equals("")) {
+                    JOptionPane.showMessageDialog(null, "Please enter the Amount you want to withdraw");
+                } else {
+                    Connn c = new Connn();
+                    ResultSet resultSet = c.statement.executeQuery("select * from bank where pin = '" + pin + "'");
+                    int balance = 0;
 
 
 
