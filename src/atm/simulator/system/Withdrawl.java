@@ -28,6 +28,7 @@ public class Withdrawl extends JFrame implements ActionListener {
         label1.setBounds(460,180,700,35);
         l3.add(label1);
 
+        
         JLabel label2 = new JLabel("PLEASE ENTER YOUR AMOUNT");
         label2.setForeground(Color.WHITE);
         label2.setFont(new Font("System", Font.BOLD, 16));
