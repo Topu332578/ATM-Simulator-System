@@ -19,6 +19,7 @@ public class Deposit extends JFrame implements ActionListener {
         JLabel l3 = new JLabel(i3);
         l3.setBounds(0,0,1550,830);
         add(l3);
+      
 
         JLabel label1 = new JLabel("ENETR AMOUNT YOU WANT TO DEPOSIT");
         label1.setForeground(Color.WHITE);
@@ -46,8 +47,6 @@ public class Deposit extends JFrame implements ActionListener {
         b2.setForeground(Color.WHITE);
         b2.addActionListener(this);
         l3.add(b2);
-
-
 
 
     setLayout(null);
