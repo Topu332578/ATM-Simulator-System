@@ -1,5 +1,4 @@
 package bank.management.system;
-
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -11,7 +10,7 @@ public class BalanceEnquriy extends JFrame implements ActionListener {
     JLabel label2;
     JButton b1;
     BalanceEnquriy(String pin){
-        this.pin =pin;
+    this.pin =pin;
 
         ImageIcon i1 = new ImageIcon(ClassLoader.getSystemResource("icon/atm2.png"));
         Image i2 = i1.getImage().getScaledInstance(1550,830,Image.SCALE_DEFAULT);
