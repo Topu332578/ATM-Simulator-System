@@ -8,7 +8,8 @@ import java.awt.event.ActionListener;
 public class main_Class extends JFrame implements ActionListener {
     JButton b1,b2,b3,b4,b5,b6,b7;
     String pin;
-    main_Class(String pin){
+    main_Class(String pin)
+    {
         this.pin = pin;
         ImageIcon i1 = new ImageIcon(ClassLoader.getSystemResource("icon/atm2.png"));
         Image i2 = i1.getImage().getScaledInstance(1550,830,Image.SCALE_DEFAULT);
